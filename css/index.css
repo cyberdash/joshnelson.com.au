@@ -1,0 +1,65 @@
+body {
+    background: #ECD078;
+    margin: 0;
+}
+
+#header {
+    background-color: #D95B43;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 0;
+    font-family: 'Lobster Two', cursive;
+    font-size: 64px;
+}
+
+#header a {
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+}
+
+#projects a {
+    text-decoration: none;
+}
+
+.project {
+    height: 300px;
+    margin-top: 20px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.project h2 {
+    color: #ffffff;
+    font-family: 'Arial';
+    font-size: 18px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    background-color: #D95B43;
+}
+
+.project img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    width: 100%;
+    transition: all 1s ease;
+    height: 100%;
+}
+
+.project:hover img {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+}
