@@ -20,6 +20,11 @@ body {
     color: #ffffff;
     padding-left: 10px;
     padding-right: 10px;
+    transition: color 0.3s;
+}
+
+#header a:hover {
+    color: #7A0606;
 }
 
 #projects {
